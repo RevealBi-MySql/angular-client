@@ -1,0 +1,64 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  height: 8%;
+  min-width: 50px;
+  min-height: 50px;
+  max-height: 8%;
+}
+.row-layout {
+  display: flex;
+}
+.group_1 {
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  width: 635px;
+  min-width: 635px;
+  max-width: 635px;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 0 16px 16px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.text {
+  margin: 0 10px 0 0;
+  height: max-content;
+  min-width: min-content;
+}
+.single-select-combo {
+  width: 352px;
+  height: max-content;
+  min-width: min-content;
+  max-width: 352px;
+  flex-shrink: 0;
+}
+.reveal-dash-board {
+  min-width: 400px;
+  min-height: 200px;
+  flex-grow: 1;
+  flex-basis: 0;
+}

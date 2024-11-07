@@ -1,0 +1,11 @@
+<div class="column-layout group">
+  <div class="row-layout group_1">
+    <p class="text">
+      Select a user to impersonate
+    </p>
+    <igx-simple-combo type="border" [data]="northwindEmployees" valueKey="employeeId" displayKey="employeeLogin" (selectionChanging)="singleSelectComboSelectionChanging($event)" class="single-select-combo"></igx-simple-combo>
+  </div>
+</div>
+<div class="column-layout group_2">
+  <div #revealView style="height: calc(100vh-50); width: 100%; position:relative;" class="reveal-dash-board"></div>
+</div>
